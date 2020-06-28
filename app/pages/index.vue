@@ -7,5 +7,8 @@
 </template>
 
 <script lang="ts">
-export default {}
+import { Component, Vue } from 'nuxt-property-decorator'
+
+@Component({})
+export default class PagesIndex extends Vue {}
 </script>

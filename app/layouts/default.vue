@@ -9,9 +9,10 @@
 </template>
 
 <script lang="ts">
-export default {
-  data() {
-    return {}
-  },
-}
+import { Component, Vue } from 'nuxt-property-decorator'
+
+@Component({
+  components: {}
+})
+export default class LayoutsDefault extends Vue {}
 </script>
