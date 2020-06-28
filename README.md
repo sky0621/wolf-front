@@ -67,3 +67,26 @@ Done in 3.08s.
   See : https://typescript.nuxtjs.org/cookbook/components/
 Done in 121.58s.
 ```
+
+## ライブラリ
+```
+$ yarn add @nuxtjs/apollo
+$ yarn add @nuxtjs/auth
+$ yarn add @nuxtjs/proxy
+$ yarn add @nuxtjs/toast
+$ yarn add @types/lodash
+$ yarn add graphql-tag
+$ yarn add nuxt-healthcheck
+$ yarn add nuxt-i18n
+$ yarn add nuxt-property-decorator
+$ yarn add vuex-persistedstate
+```
+
+```
+$ yarn add -D @graphql-codegen/cli
+$ yarn add -D @graphql-codegen/typescript
+$ yarn add -D @graphql-codegen/typescript-operations
+$ yarn add -D @typescript-eslint/eslint-plugin
+$ yarn add -D @typescript-eslint/parser
+$ yarn add -D vee-validate
+```

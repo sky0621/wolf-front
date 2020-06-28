@@ -1,0 +1,10 @@
+overwrite: true
+schema:
+  - "http://localhost:8765/query":
+#      headers:
+#        Authorization: "Bearer xxxx"
+generates:
+  ./gql-types.d.ts:
+    plugins:
+      - typescript
+      - typescript-operations
